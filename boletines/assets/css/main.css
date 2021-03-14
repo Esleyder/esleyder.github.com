@@ -1,8 +1,13 @@
 html{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+.table{
+ width:100%;
+ border-spacing:0; 
+}
 a{
 	text-decoration: none;
+	color: #d500f9;
 }
 .title{
 	text-transform: uppercase;
@@ -35,6 +40,16 @@ background-color: white;
 #boton-pago{
   background-color:yellow;
 }
-td{
-  border:solid 1px;
+.table td, .table th{
+	padding: 1em;
+	text-align: left;
 }
+
+.table tr:nth-child(even){background-color:#f3e5f5;}
+
+.fa-star{
+	color:#ffc400;
+}
+
+
+
