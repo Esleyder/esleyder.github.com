@@ -1,6 +1,16 @@
 html{
 	font-family: 'Source Sans Pro', sans-serif;
 }
+a{
+	text-decoration: none;
+}
+.title{
+	text-transform: uppercase;
+}
+.paragraph{
+	line-height: 1.8em;
+	font-weight: 200;
+}
 .container{
 background: #f953c6;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
