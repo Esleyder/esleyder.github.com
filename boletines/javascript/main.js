@@ -11,9 +11,10 @@ let content = document.querySelector(.'content');
     content.classList.add("animate__animated");
 
 setTimeout(function(){
-location.href ="/"
+location.href ="/";
 },600);
 
+  return false;
    });
 });
 
