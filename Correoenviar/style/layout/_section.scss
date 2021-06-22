@@ -1,0 +1,15 @@
+.l-section {
+	--fscontent			 :		  1rem;
+
+	@include from(m){
+	--fscontent 		 :		  1.5rem;
+}
+
+	font-size            :        var(--fscontent);
+	color                :        $colorFirst;
+	padding-bottom		 : 		  2rem;
+
+	@include from(m) {	 
+	padding-top          :        1rem;
+	}
+}

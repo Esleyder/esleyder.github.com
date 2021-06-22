@@ -1,0 +1,8 @@
+/* Breakpoints para poder realizar lo responsive */
+$dimensions : (
+                           s:           0px,            //celulares      
+                           m:           640px,          //tablets
+                          mx:           800px,
+                          lg:           1024px,         //laptops
+                          xl:           1440px          //higherlaptops
+) !default;

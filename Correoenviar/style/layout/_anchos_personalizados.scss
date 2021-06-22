@@ -1,0 +1,14 @@
+// Anchos personalizados
+@for $i from 1 through 20 {
+	.s-#{$i*5} {
+	  width              :         #{$i * 5%};
+	}
+  }
+  
+  @include from(l) {
+	@for $i from 1 through 20 {
+	  .l-#{$i*5} {
+		width            :         #{$i * 5%};
+	  }
+	}
+  }

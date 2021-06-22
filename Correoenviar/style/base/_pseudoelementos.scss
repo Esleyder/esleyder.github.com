@@ -1,0 +1,6 @@
+/* Pseudoelementos para ajustar las configuraciones necesarios al sitio web */
+*, *::before, *::after {
+    box-sizing: 			    border-box;
+	font-family: 			    'geometria-light';
+	scrollbar-color:         	$colorOver $colorSecond;
+}

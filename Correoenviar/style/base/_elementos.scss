@@ -1,0 +1,36 @@
+/* Ajustar las configuraciones necesarias para el sitio */
+body {	
+	background-color: $colorSecond; 
+}
+
+a {
+	text-decoration: none;
+	color:			$colorThird;
+}
+
+.colorBLANCO{	
+	color: 			$colorSecond;
+}
+
+.colorNegro {
+    color:      	$colorFirst;
+}
+
+.colorRojo {
+	color:			$colorThird;
+}
+
+.colorVerde {
+	color:			$colorQuarter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 	0;
+}
+
+.notifCorrecto{
+	color: 			$colorQuarter;
+	margin-top:     1rem;
+	margin-bottom:  0;
+}
+

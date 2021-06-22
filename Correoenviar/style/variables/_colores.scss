@@ -1,0 +1,22 @@
+/*Variables de los colores con relación a la imagen de la marca */
+$colorFirst            :          #000000;
+$colorSecond           :          #ffffff;
+$colorThird            :          #e80c0c;
+$colorQuarter          :          #24a107;
+$colorOver             :          #f9f7f7;
+
+.colorNegro {
+    color              :          $colorFirst;
+}
+
+.colorBlanco {
+    color              :          $colorSecond;
+}
+
+.colorRojo {
+    color              :          $colorThird;
+}
+
+.colorVerde {
+    color              :          $colorQuarter;
+}
