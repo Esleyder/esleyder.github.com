@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollador web Jr</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+      <h1>Desarrollador web Jr</h1>
+      <img src="Imagenes/Principal.jpg" alt="Imagen del Programador">
+    </header>
+
+    <main>
+      <section class="informacion-personal">
+        <h2>Brayan Esleyder Rengifo Cuero</h2>
+        <p>Edad: 25 años</p>
+        <p>Experiencia: 1 año</p>
+        <p><a href="https://github.com/Esleyder" target="_blank">Github</a></p>
+        <p><a href="https://www.linkedin.com/in/brayan-esleyder-rengifo-cuero-122412108/" target="_blank">LinkedIn</a></p>
+      </section>
+
+      <section class="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="habilidades">
+          <li>PHP <span class="porcentaje" style="width: 70%;">70%</span></li>
+          <li>Javascript <span class="porcentaje" style="width: 40%;">40%</span></li>
+          <li>Java <span class="porcentaje" style="width: 30%;">30%</span></li>
+          <li>HTML <span class="porcentaje" style="width: 85%;">60%</span></li>
+          <li>CSS <span class="porcentaje" style="width: 60%;">60%</span></li>
+          <li>Mysql <span class="porcentaje" style="width: 60%;">60%</span></li>
+        </ul>
+      </section>
+
+      <section class="biografia">
+        <h2>Biografía</h2>
+        <p>Soy un programador junior con experiencia en desarrollo web.</p>
+      </section>
+
+      <section class="proyectos">
+        <h2>Catálogo de Proyectos</h2>
+        <ul class="proyectos">
+          <li>
+            <h3>Crud Php poo</h3>
+            <p>este proyecto fue desarrollado en php usando orientacion a objetos</p>
+            <a href="https://github.com/Esleyder/Crudpoo" target="_blank">Ver Proyecto</a>
+          </li>
+          <li>
+            <h3>Gestion Empleados</h3>
+            <p>este proyecto fue desarrollado en php usando orientacion a objetos</p>
+            <a href="https://github.com/Esleyder/Nexura" target="_blank">Ver Proyecto</a>
+          </li>
+          <!-- Agrega más proyectos aquí si lo deseas -->
+        </ul>
+      </section>
+
+      <section class="cursos">
+        <h2>Cursos Realizados</h2>
+        <ul>
+          <li>CURSO ESPECIAL EN DESARROLLO DE APLICACIONES MULTIMEDIA CON UNITY 3D</li>
+          <li>CURSO ESPECIAL EN ADOPCION DE METODOLOGIAS HIBRIDAS PARA EL DESARROLLO DE SOFTWARE</li>
+          <li>CURSO ESPECIAL EN DESARROLLO DE SISTEMAS DE INFORMACIÓN BÁSICOS EN JAVA</li>
+          <li>CURSO ESPECIAL EN APLICACION DE LA METODOLOGIA SCRUM PARA PROYECTOS DE DESARROLLO DE SOFTWARE</li>
+          <li>CURSO ESPECIAL EN MANEJO DE HERAMIENTAS XHTML PARA LA CONSTRUCCION DE SITIOS WEB</li>
+          <li>CURSO ESPECIAL EN PRINCIPIOS DE ALGORITMIA</li>
+          <!-- Agrega más cursos realizados aquí si lo deseas -->
+        </ul>
+      </section>
+
+      <section class="diplomados">
+        <h2>Diplomados</h2>
+        <ul>
+          <li>Diplomado 1</li>
+          <!-- Agrega más diplomados aquí si lo deseas -->
+        </ul>
+      </section>
+
+      <section class="academica">
+        <h2>Información Académica</h2>
+        <ul>
+          <li>TECNÓLOGO EN ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION- SENA (2018)</li>
+          <li>Ingeniero en Sistemas-Unicerseidad CUN (2023)</li>
+          <!-- Agrega más información académica aquí si lo deseas -->
+        </ul>
+      </section>
+
+      <section class="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <footer class="pie-de-pagina">
+    <p>Derechos de autor &copy; 2023 | Esleyder Rengifo</p>
+  </footer>
+</body>
+</html>
+

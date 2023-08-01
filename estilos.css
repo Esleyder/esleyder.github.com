@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  ul.proyectos {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.proyectos li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  ul.proyectos li h3 {
+    margin: 0;
+  }
+  
+  ul.proyectos li p {
+    margin: 5px 0;
+  }
+  
+  footer.pie-de-pagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer.pie-de-pagina p {
+    margin: 0;
+  }
+ /* ... (código CSS existente) ... */
+
+ul.habilidades li {
+    margin-bottom: 20px; /* Ajusta el espacio vertical entre las barras de progreso */
+  }
+  
+  .porcentaje {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Si deseas que las barras de progreso ocupen todo el ancho */
+  ul.habilidades li .porcentaje {
+    width: 100%;
+  }
+  /* ... (código CSS existente) ... */
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px; /* Ajusta el ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+
+ 
